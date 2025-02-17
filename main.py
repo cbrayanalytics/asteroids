@@ -1,6 +1,3 @@
-# this allows us to use code from
-# the open-source pygame library
-# throughout this file
 import pygame
 import sys
 from constants import *
@@ -57,10 +54,6 @@ def main():
         clock.tick(60)
 
         dt = clock.get_time() / 1000
-
-    print("Starting asteroids!")
-    print(f"Screen width: {constants.SCREEN_WIDTH}")
-    print(f"Screen height: {constants.SCREEN_HEIGHT}")
 
 
 if __name__ == "__main__":
